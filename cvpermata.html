@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Siswa TKJ</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #eaf2f8;
+            color: #333;
+        }
+
+        header {
+            background: #064b80;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background: #02345c;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 25px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #0002;
+        }
+
+        .profil {
+            text-align: center;
+        }
+
+        .profil img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #0876bd;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            color: #064b80;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #0876bd;
+            padding-bottom: 8px;
+        }
+
+        p {
+            line-height: 1.8;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background: #0876bd;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background: #eaf2f8;
+        }
+
+        ul {
+            padding-left: 25px;
+            line-height: 2;
+        }
+
+        footer {
+            background: #02345c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media(max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .container {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>CURRICULUM VITAE</h1>
+    <p>Teknik Komputer dan Jaringan (TKJ)</p>
+</header>
+
+<nav>
+    <a href="#profil">Profil</a>
+    <a href="#biodata">Biodata</a>
+    <a href="#pendidikan">Pendidikan</a>
+    <a href="#keahlian">Keahlian</a>
+</nav>
+
+<div class="container">
+
+    <section class="card profil" id="profil">
+        <img src="foto.jpg" alt="Foto Profil">
+        <h2>Profil Saya</h2>
+        <h3>Nama Kamu</h3>
+        <p>
+            Saya adalah siswa jurusan Teknik Komputer dan
+            Jaringan (TKJ) yang memiliki minat dalam bidang
+            komputer, jaringan internet, dan teknologi.
+            Saya senang belajar hal baru dan mengembangkan
+            kemampuan di bidang teknologi informasi.
+        </p>
+    </section>
+
+    <section class="card" id="biodata">
+        <h2>Data Pribadi</h2>
+
+        <table>
+            <tr>
+                <th>Informasi</th>
+                <th>Keterangan</th>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td>Permata dina</td>
+            </tr>
+            <tr>
+                <td>Tempat, Tanggal Lahir</td>
+                <td>Tempat, Tanggal Lahir</td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>Laki-laki / Perempuan</td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>Alamat Rumah</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>email@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jurusan</td>
+                <td>Teknik Komputer dan Jaringan</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="card" id="pendidikan">
+        <h2>Riwayat Pendidikan</h2>
+
+        <table>
+            <tr>
+                <th>Tahun</th>
+                <th>Nama Sekolah</th>
+            </tr>
+            <tr>
+                <td>2017 - 2020</td>
+                <td>SD</td>
+            </tr>
+            <tr>
+                <td>2020 - 2023</td>
+                <td>SMP</td>
+            </tr>
+            <tr>
+                <td>2023 - Sekarang</td>
+                <td>SMK Jurusan TKJ</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="card" id="keahlian">
+        <h2>Keahlian TKJ</h2>
+        <ul>
+            <li>Merakit komputer dan laptop</li>
+            <li>Menginstal sistem operasi Windows</li>
+            <li>Membuat kabel LAN (Straight dan Cross)</li>
+            <li>Konfigurasi jaringan komputer</li>
+            <li>Memahami dasar-dasar IP Address</li>
+            <li>Instalasi dan konfigurasi router</li>
+            <li>Dasar HTML dan CSS</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>Hobi dan Minat</h2>
+        <ul>
+            <li>Belajar teknologi komputer</li>
+            <li>Mempelajari jaringan internet</li>
+            <li>Mendesain website</li>
+            <li>Memperbaiki perangkat komputer</li>
+        </ul>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 CV Siswa TKJ</p>
+    <p>Belajar Teknologi, Membangun Masa Depan</p>
+</footer>
+
+</body>
+</html>
